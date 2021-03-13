@@ -19,3 +19,12 @@ ________________________________________________________________________________
 # some important/commonly used functions
 
 
+
+
+#column selection
+
+# dot notation
+# variable = object.column ... only used for stuff with normal characters and underscores
+
+# bracket and string notation
+# variable = object['string wit special characters!'] 
