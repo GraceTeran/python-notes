@@ -18,8 +18,7 @@ burgers = df.head() ... #.head() returns a value but doesn't take any arguments
 ___________________________________________________________________________________________________________________________________________________
 # some important/commonly used functions
 
-
-
+___________________________________________________________________________________________________________________________________________________
 
 #column selection
 
@@ -28,3 +27,30 @@ ________________________________________________________________________________
 
 # bracket and string notation
 # variable = object['string wit special characters!'] 
+
+__________________________________________________________________________________________________________________________________________________
+
+logical statements
+-------------------
+
+variable == variable ... # checks if the variables are equal to one another, returns True or False
+
+# can also use >, >=, <, <= (greater than, greater than or = to, less than, less than or = to)
+
+!= ... # represents not equal to 
+
+using logic w/ DataFrames
+--------------------------
+
+DataFrame_Name[logical statement]
+Ex. credit_records[credit_records.price > 20.00] ... # will check for purchases greather than 20$
+
+_________________________________________________________________________________________________________________
+
+Line plot with mathplotlib
+--------------------------
+
+function_name(x_values, y_values)
+
+plt.plot ... # makes the plot
+plt.show ... # shows the plot
